@@ -1,0 +1,10 @@
++interface Loopback100
+- no shutdown
++interface GigabitEthernet1
+- no shutdown
++interface GigabitEthernet2
+- no shutdown
++interface GigabitEthernet3
+- no shutdown
++router ospf 100
++ log-adjacency-changes
